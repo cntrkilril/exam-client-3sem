@@ -26,7 +26,6 @@ export default {
         method: 'GET',
       })
       const sales = await res.json()
-      console.log(sales)
       ctx.commit('updateSales', sales)
       }
     },

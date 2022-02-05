@@ -28,7 +28,6 @@ export default {
         return res.json()
       }).then((result) =>
         this.content = result)
-      console.log(this.content)
       this.load = false
     }
   }

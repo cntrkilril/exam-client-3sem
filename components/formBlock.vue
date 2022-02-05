@@ -147,7 +147,6 @@ export default {
       this.form.destination_address = ''
       this.form.weight = ''
       this.form.volume = ''
-      console.log(res)
     },
 
     Reset(event) {
