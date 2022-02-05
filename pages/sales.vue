@@ -9,6 +9,7 @@
       <b-card-text><b>Куда: </b>{{sale.destination_city}}, {{sale.destination_address}}</b-card-text>
       <b-card-text><b>Вес: </b>{{sale.weight}}</b-card-text>
       <b-card-text><b>Объем: </b>{{sale.volume}}</b-card-text>
+      <b-card-text><b>Тип: </b>{{sale.type}}</b-card-text>
     </b-card>
     <p class="block-content__text">{{allSales.id}}</p>
   </main>
